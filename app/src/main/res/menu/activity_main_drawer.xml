@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Главная"
+            android:visible="true"
+            app:itemTextColor="#FFFFFF" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/location"
+            android:title="Местоположение"
+            app:itemTextColor="#FFFFFF" />
+        <item
+            android:id="@+id/nav_unit"
+            android:icon="@drawable/maos"
+            android:title="Единицы измерения"
+            app:titleTextColor="#FFFFFF" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/unit"
+            android:title="Карта погоды"
+            app:itemTextColor="#FFFFFF" />
+        <item
+            android:id="@+id/app_bar_switch"
+            android:icon="@drawable/dark_icons"
+            android:title="Темный фон"
+            app:actionLayout="@layout/switch_item"
+            app:itemTextColor="#FFFFFF"
+            app:showAsAction="always" />
+    </group>
+</menu>
